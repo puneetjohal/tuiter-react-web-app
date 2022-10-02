@@ -1,0 +1,100 @@
+.wd-main-content {
+  max-width: calc(506px + 16px + 16px + 48px + 12px);
+}
+
+.wd-secondary-text {
+  font-weight: 400;
+  color: rgb(110, 118, 125);
+}
+
+#user-handle {
+  font-size: 13px;
+}
+
+.wd-page-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgb(47,51,54);
+}
+
+.wd-page-title h1 {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.wd-post {
+  display: flex;
+  padding: 12px 16px;
+  font-size: 15px;
+  border-bottom: 1px solid rgb(47,51,54);
+}
+
+.wd-post-head {
+  display: flex;
+}
+
+.wd-post-head > .wd-post-author {
+  margin-right: 4px;
+}
+
+.wd-post-left {
+  margin-right: 12px;
+}
+
+.wd-post-body {
+  max-width: 506px;
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+
+.wd-post-options {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  right: 16px;
+}
+
+.wd-attached-article {
+  width: 504px;
+  border: 1px solid rgb(47,51,54);
+  border-radius: 15px;
+}
+
+#article-image {
+  height: 264px;
+  width: 504px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom: 1px solid rgb(47,51,54);
+}
+
+.wd-article-preview-text {
+  padding: 12px;
+}
+
+.wd-post-interactions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  padding-right: 12px;
+  max-width: 506px;
+}
+
+.wd-interaction {
+  color: rgb(110, 118, 125);
+}
+
+.wd-interaction > a, a:link {
+  text-decoration: none;
+}
+
+.wd-interaction > p {
+  display: inline;
+  margin-left: 12px;
+}
+
+#liked {
+  color: red;
+}
