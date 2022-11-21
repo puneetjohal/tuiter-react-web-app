@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { createTuit } from "../tuits/tuits-reducer";
+import { createTuitThunk } from "../../services/tuits-thunks";
 
 const WhatsHappening = () => {
   const [whatsHappening, setWhatsHappening] = useState('');
@@ -8,9 +8,13 @@ const WhatsHappening = () => {
 
   const tuitClickHandler = () => {
     const newTuit = {
+      username: "nasa",
+      handle: "@nasa-parody",
+      image: "nasa.jpg",
+      time: "1m",
       tuit: whatsHappening,
     }
-    dispatch(createTuit(newTuit));
+    dispatch(createTuitThunk(newTuit));
     setWhatsHappening('');
   }
 

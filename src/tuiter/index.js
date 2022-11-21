@@ -12,7 +12,7 @@ import { useLocation } from 'react-router-dom';
 const store = configureStore({
   reducer: {
     who: whoReducer,
-    tuits: tuitsReducer,
+    tuitsData: tuitsReducer,
   }
 });
 
